@@ -44,8 +44,8 @@ jobs:
           python3 sjys.py
       - name: '运行 【京喜工厂】'
         run: |
-          curl https://raw.githubusercontent.com/zero205/JD/main/jd_dreamFactory.js -o jd_dreamFactory.js
-          curl https://raw.githubusercontent.com/zero205/JD/main/jd_dreamFactory_2.js -o jd_dreamFactory_2.js
+          curl https://raw.githubusercontent.com/SpoonerCake/JD/main/jd_dreamFactory.js -o jd_dreamFactory.js
+          curl https://raw.githubusercontent.com/SpoonerCake/JD/main/jd_dreamFactory_2.js -o jd_dreamFactory_2.js
           node jd_dreamFactory.js
           node jd_dreamFactory_2.js
         env:
